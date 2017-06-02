@@ -26,7 +26,7 @@ To run linter:
 $ npm run linter
 ```
 
-## Specifications
+## Specifications -- 17/19 or 89% complete.
 
 - [x] Artifact produced is a fork of the [core-data-structures][core-data-structures] repo.
 - [x] Can run all tests with `npm test`.
