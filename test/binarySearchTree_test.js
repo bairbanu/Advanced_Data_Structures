@@ -6,11 +6,11 @@ describe('BinarySearchTree()', () => {
   let bst;
   beforeEach(() => {
     bst = new BinarySearchTree();
-  })
+  });
 
   it('expects BinarySearchTree() to be a function', () => {
-    expect(BinarySearchTree).to.be.a('function')
-  })
+    expect(BinarySearchTree).to.be.a('function');
+  });
 
   it('expects BST to insert value correctly', () => {
     expect(bst.getRoot().data).to.be.null;
@@ -27,7 +27,7 @@ describe('BinarySearchTree()', () => {
     bst.insert(25);
     bst.insert(32);
     expect(bst.getRoot().right.right.data).to.equal(32);
-  })
+  });
 
   it('expects search for data to return return a node object', () => {
     bst.insert(20);
@@ -41,7 +41,7 @@ describe('BinarySearchTree()', () => {
     expect(bst.search(19).data).to.equal(19);
     expect(bst.search(32).data).to.equal(32);
     expect(bst.search(3)).to.be.null;
-  })
+  });
 
   it('expects a deletion to happen correctly', () => {
     bst.insert(20);
@@ -64,7 +64,7 @@ describe('BinarySearchTree()', () => {
     bst.insert(24);
     bst.remove(20);
     expect(bst.search(20)).to.be.null;
-  })
+  });
 
   it('expects the binary search tree to be traversed in-order', () => {
     bst.insert(20);
@@ -85,6 +85,6 @@ describe('BinarySearchTree()', () => {
 
     bst.traverse(addArray);
     expect(test).to.eql([ 8, 10, 19, 20, 21, 23, 25, 27, 30, 32 ]);
-  })
+  });
 
-})
+});
