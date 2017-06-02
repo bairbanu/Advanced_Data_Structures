@@ -1,7 +1,7 @@
 import chai, { expect } from 'chai';
 import TreeNode from '../src/treeNode';
 
-describe.only('TreeNode()', () => {
+describe('TreeNode()', () => {
 
   it('expects TreeNode() to be a function', () => {
     expect(TreeNode).to.be.a('function')
