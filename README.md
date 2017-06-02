@@ -6,8 +6,22 @@ Base repository for the [Core Data Structures](http://jsdev.learnersguild.org/go
 
 ## Installation and Setup
 
-_Fill this out_
+To clone repository:
+```
+$git clone https://github.com/zubairnahmed/Advanced_Data_Structures.git
+```
 
-## Usage and Examples
+To install dependencies:
+```
+$ npm install
+```
 
-_...and this_
+To run tests:
+```
+$ npm test
+```
+
+To run linter:
+```
+$ npm run linter
+```
